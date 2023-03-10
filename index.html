@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title> Форма </title>
+  </head>
+<body>
+  <h3> Заповни форму для складfння іспитів </h3>
+   <form>
+    <label for="surname">Прізвище:</label>
+    <input type="text" id="surname" name="surname"><br><br>
+
+    <label for="email">Емейл:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="district">З цього списку вибери район, де ти проживаєш:</label>
+    <br>
+      <select id="district" name="district">
+      <option value="central">Уманський</option>
+      <option value="podil">Черкаський</option>
+      <option value="holosiiv">Звенигородський</option>
+      <option value="darnytsia">Золотоніський</option>
+    </select>
+
+    <p>
+    <label for="language">Зазнач мову, якою ти складатимеш іспит:</label><br>
+    <input type="radio" id="ukr" name="language" value="ukr">
+    <label for="ukr">Українська</label><br>
+    <input type="radio" id="eng" name="language" value="eng">
+    <label for="eng">Англійська</label><br>
+    <input type="radio" id="rus" name="language" value="rus">
+    <label for="rus">Російська</label><br><br>
+
+    <label for="exam">Вибери іспит:</label><br>
+    <input type="checkbox" id="math" name="exam" value="math">
+    <label for="math">Математика</label><br>
+    <input type="checkbox" id="physics" name="exam" value="physics">
+    <label for="physics">Фізика</label><br>
+    <input type="checkbox" id="chemistry" name="exam" value="chemistry">
+    <label for="chemistry">Хімія</label><br><br>
+
+    <input type="submit" value="Відіслати">
+    <input type="reset" value="Оновити форму">
+   </form>
+</body>
+</html>
